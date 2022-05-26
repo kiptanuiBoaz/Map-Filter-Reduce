@@ -1,5 +1,14 @@
-var numbers = [3, 56, 2, 48, 5];
+import React from "react";
+import  ReactDOM  from "react-dom";
+import App from "./components/App"
 
+ReactDOM.render(
+    <div> 
+
+        <App/>
+
+    </div>),
+document.getElementById("root");
 //Map -Create a new array by doing something with each item in an array.
 
 //Filter - Create a new array by keeping the items that return true.
@@ -8,4 +17,9 @@ var numbers = [3, 56, 2, 48, 5];
 
 //Find - find the first item that matches from an array.
 
-//FindIndex - find the index of the first item that matches.
+// //FindIndex - find the index of the first item that matches.
+// const newNumbers =numbers.filter (function(num){
+//     return (num>10)
+// })
+
+// console.log(newNumbers);
